@@ -1,79 +1,90 @@
-# Online Sales Dashboard
+# Bank Analysis Dashboard
 
 ## Description
-This repository contains a **comprehensive Power BI dashboard** for analyzing Online Sales. It includes data cleaning with Powerquery, exploratory visualizations, and a multi-page Power BI dashboard focusing on sales performance, cutomers, and time series and other insights. The dashboard is designed to analyze sales performance, cutomers, and time series based on data from January 2010 to December 2014. It provides actionable insights for marketers, analysts, and decision-makers to optimize advertising strategies.
+This repository contains a **comprehensive Power BI dashboard** for analyzing Online Sales. It includes data cleaning with Powerquery, exploratory visualizations, and a multi-page Power BI dashboard focusing on cutomers Performance and all staff related to Financial transactions. The dashboard is designed to analyze customers and Financial transactions based on data from 2024. It provides actionable insights for marketers, analysts, and decision-makers to optimize advertising strategies.
 
 ## Features
 
 ### 1. Data Cleaning Using Powerquery
 
   - check missing values and remove blank rows
-  - Change columns data types to correct one.
-  - Created a new feature: `AgeGroup` .
+  - remove duplicates or redudancy
+  - Change columns data types to  the correct one.
   - renamed columns correctly.
   - Exported cleaned data for Power BI integration.
 
 ---
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/HomePage.PNG)
+![Customers](https://github.com/Safa-Ali-Ahmed/Bank-Analysis-Dashboard/blob/main/Screen%20Shoots/HomePage.PNG)
 
 ### 2. Power BI Dashboard
-**Sales Performance Analysis**
-📌 Key Sales Metrics:
-   🔹 Total Sales: $29.36M 💰
-   🔹 Total Transactions: 106K 
-   🔹 Average Unit Price: $486.09 
-   🔹 Top Shipping Region: Europe 
-   🔹 Best-Selling Categories: Accessories & Bikes
+**Overview**
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/SalesPerformance.PNG)
+---Average Tenure:
+Customers stay with the bank for an average of 5.01 years, indicating good retention.
+---Total Countries Analyzed:
+Data covers 3 countries: Spain, Germany, and France.
+---Average Number of Products:
+On average, each customer holds 2 products.
+---Average Salary:
+Around $100.09K per year.
+---Customer Activity:
+5.2K active customers vs 4.8K non-active customers — a slightly higher proportion of active users.
+---Max Salary by Country:
+Spain has the highest average salary, followed by Germany and then France.
+---Products Distribution:
+Most customers have 1 or 2 products.
+---Gender Distribution:
+Slightly more males than females among the customers.
+
+
+![Customers](https://github.com/Safa-Ali-Ahmed/Bank-Analysis-Dashboard/blob/main/Screen%20Shoots/OverView.PNG)
 
 
 ---
 
-**Customers Analysis**
-👨‍👨‍👧 Customer Insights:
- ➖ Gender Distribution:
- 49.41% Female
- 50.59% Male
- ➖ Marital Status Impact on Sales:
- ◾ 97K sales from married customers
- ◾ 10K sales from single customers
- ➖ Average Customer Annual Income: $98K
- ➖ Top Spending Customer Segment:
- ◾ Male customers aged 35-50 with high annual income spend the most per order.
+**Insights**
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/Customers.PNG)
+---Customer Churn Rate:
+4.1K customers exited (churned), while 5.9K customers remained.
+Churn rate is notable, meaning there's room to improve customer retention.
+---Exited Customers by Country:
+Germany has the highest number of exited customers.
+France has the fewest customers who exited.
+Spain is in the middle range.
+---Exited Customers by Credit Card Ownership:
+Customers without credit cards have a slightly higher churn rate compared to those who have cards.
+---Exited Customers by Active Membership:
+Non-active members are more likely to leave compared to active members.
+Indicates that engagement matters a lot for retention.
+----Exited Customers by Gender:
+Female customers have a slightly higher exit rate than males.
+----Balance vs Churn Analysis:
+Churn seems to occur across different balance levels, but no extremely strong link is shown — needs deeper analysis.
+----Exited Customers by Tenure:
+Customers with lower tenure (few years with the bank) are more likely to leave.
+
+![Customers](https://github.com/Safa-Ali-Ahmed/Bank-Analysis-Dashboard/blob/main/Screen%20Shoots/Insights.PNG)
 
 ---
 
-**Time Series and Extra Insights**
-💰 Pricing & Cost Analysis:
- ◾ Average Product Cost: $286.07
- ◾ Average Tax per Order: $38.89
- ◾ Profit Margin: 42% 📈
+**Details**
 
-🗺️ Regional Insights:
- ➖ Top Performing Regions by Sales Volume:
- ◾ Europe – $12.4M
- ◾ North America – $10.8M
- ◾ Asia-Pacific – $6.16M
-✨ Fastest-Growing Market: Asia-Pacific, with a 15% YoY sales increase.
+----Average Age:
+The average customer age is 39 years — suggesting a middle-aged customer base.
+----Total Credit Count:
+460 total credit count (context of this metric could depend on the specific dataset logic).
+---Exited Customers by Gender:
+55.06% of customers who left the bank are female, 44.94% are male.
+---Gender vs Salary:
+Males earn higher salaries compared to females on average.
+---Credit Card Ownership by Balance:
+Customers with credit cards have higher balances than those without.
+----Country Balance Comparison:
+Customers from France hold the highest total balances, followed by Germany and Spain.
 
 
-📈 Additional Insights:
- 🔸 Age Demographics:
- ▪️ Majority of customers fall within the age range of 25-45, highlighting a younger, more dynamic market. This suggests that marketing efforts should focus on platforms and campaigns targeting younger consumers.
- 🔸 Discount Impact:
- Products that were discounted saw an average sales increase of 15%, proving that strategic discounting can drive customer demand without sacrificing too much profit margin.
- 🔸 Seasonality Patterns:
- ▪️️ Sales data shows peak activity in Q3, suggesting that seasonal trends or product launches during this period should be prioritized for maximum ROI.
- 🔸 Customer Loyalty:
- ▪️️ A 10% increase in repeat customers correlates with a 25% increase in sales revenue, demonstrating the importance of customer retention strategies.
- 🔸 Region-Specific Trends:
- ▪️️ Europe leads in total sales, but the Asia Pacific region shows growing potential with a 20% increase in sales YoY, signaling an opportunity for further market penetration.
-
-![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/TimeSeries.PNG)
+![Customers](https://github.com/Safa-Ali-Ahmed/Bank-Analysis-Dashboard/blob/main/Screen%20Shoots/Details.PNG)
 
 ---
 
@@ -86,7 +97,7 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone 'https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard.git'
+   git clone 'https://github.com/Safa-Ali-Ahmed/Bank-Analysis-Dashboard.git'
 
    ```
 2. Open the `Dashboard.pbix` file in Power BI Desktop.
@@ -95,10 +106,8 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
 
 ## Tools & Technologies & Features
 - Powerquery
-- Data Modeling
-- Dax
 - Power BI: Interactive dashboard design
-- Dataset: [Online Sales](https://docs.google.com/spreadsheets/d/1xlHvqVJyI1x9pDho9xywAqrGSra0Da6A/edit?usp=sharing&ouid=113280610288310962621&rtpof=true&sd=true)
+- Dataset: [Online Sales](https://docs.google.com/spreadsheets/d/1qdGK6hCPle8ZKpjC5jOWcZvzYyB5wt0B/edit?usp=sharing&ouid=113280610288310962621&rtpof=true&sd=true)
 
 ---
 ## Feedback
